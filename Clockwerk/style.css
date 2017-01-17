@@ -46,3 +46,6 @@ body{
   transform: rotate(90deg);
   transition: all 0.5s;
 }
+.hour-hand {
+  background-color: #fff;
+}

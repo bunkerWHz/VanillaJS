@@ -32,7 +32,7 @@
 
   const hours = now.getHours();
   const hoursDegrees = hours * 6/5 + 90;
-  hoursHand.style.transform = `rotate(${secondsDegrees}deg)`;
+  hoursHand.style.transform = `rotate(${hoursDegrees}deg)`;
   }
   setInterval(setDate, 1000);
   </script>
